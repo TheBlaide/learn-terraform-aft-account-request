@@ -4,10 +4,10 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "iqmc03jud@mozmail.com"
     AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "blaise.david@vinci-energies.net"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "Blaise"
+    SSOUserLastName           = "David"
   }
 
   account_tags = {
